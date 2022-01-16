@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+:root{
+    --cor-sombra: #A12B00;
+    --cor-principal: #FF5610;
+    --cor-destaque: #E36D00;
+    --cor-contraste: #011BFF;
+}
+
+body{
+    background-color: var(--cor-sombra);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(-155rad, var(--cor-sombra) 10%, var(--cor-principal) 50%, var(--cor-destaque));
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    border-bottom: 10px solid black;
+    word-wrap: break-word;
+}
+
+header img{
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 10px black;
+}
+
+header div{
+    display: inline;
+    text-shadow: 0px 0px 30px black;
+    padding-left: 40px;
+    font-family: 'Play', sans-serif;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: var(--cor-destaque);
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 10px;
+    border: 5px solid black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+}
+
+header a:hover{
+    background-color: var(--cor-principal);
+    color: black;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    padding: 40px;
+    max-width: 1920px;
+}
+
+section h1{
+    font-size: 250%;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section p{
+    font-size: 140%;
+    text-indent: 30px;
+    line-height: 50px;
+    text-align: justify;
+}
+
+section h2{
+    font-size: 2em;
+    color: black;
+}
+
+aside#lista{
+    background-image: linear-gradient(-155rad, var(--cor-principal), var(--cor-destaque));
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+    border: 5px solid black;
+    max-width: 500px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    font-size: 1.4em;
+    font-weight: bold;
+    text-indent: 20px;
+}
+
+input#redesS{
+    margin-left: 100px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    background-image: linear-gradient(-155rad, var(--cor-principal), var(--cor-destaque));
+    color: white;
+    border: 5px solid black;
+    transition: 500ms;
+}
+
+input#redesS:hover{
+    background-image: linear-gradient(-155rad, var(--cor-destaque), var(--cor-principal));
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    transition: 500ms;
+}
+
+footer{
+    height:200px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 140%;
+    padding-top: 60px;
+}
+
+@media(max-width: 485px){
+input#redesS{
+    font-size: 16px;
+    margin: 0;
+}
+
+header{
+    font-size: 120%;
+}
+
+section{
+    font-size: 3vw; 
+}
+
+section h1{
+    font-size: 220%;
+}
+
+header nav a{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+}
