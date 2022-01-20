@@ -26,6 +26,7 @@ window.addEventListener("load", ()=>{
 
     //Volta o slider
     document.querySelector("#voltar").addEventListener("click", ()=>{
+        progress = 0
         if(indice>1){
             indice--
         }else{
@@ -39,6 +40,7 @@ window.addEventListener("load", ()=>{
 
     //Avança o slider
     document.querySelector("#avancar").addEventListener("click", ()=>{
+        progress = 0
         if(indice<3){
             indice++
         }else{
