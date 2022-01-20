@@ -1,14 +1,21 @@
-let slider = document.querySelector("#slider")
+const slider = document.querySelector("#slider")
+const progBar = document.querySelector('#barProg')
+let progress = 0
 let indice = 1
 var interval
 
 //Função do timer de troca
 start = function(){
         interval = setInterval(()=>{
-        if(indice == 3){indice = 0}
-        indice++
-        slider.setAttribute("src", `images/img${indice}.jpg`)
-    }, 3000)
+            progress++
+            progBar.setAttribute('value', progress)
+        if(progress == 100){
+            if(indice == 3){indice = 0}
+            indice++
+            progress = 0
+            slider.setAttribute("src", `images/img${indice}.jpg`)
+        }
+    }, 50)
 }
 //Função do timer de troca
 

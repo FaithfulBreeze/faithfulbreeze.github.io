@@ -11,6 +11,9 @@ main{
     border-radius: 20px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.431);
 }
+#barProg{
+    width: 100%;
+}
 img{
     height: 400px;
     width: 600px;
