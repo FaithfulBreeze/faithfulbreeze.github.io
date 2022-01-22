@@ -52,11 +52,11 @@ function startContagem(){
 }
 
 function stopContagem(){
+    clearInterval(tempo)
     if(running == true){
         stop.play()
     }
     running = false
-    clearInterval(tempo)
 }
 
 function resetContagem(){
