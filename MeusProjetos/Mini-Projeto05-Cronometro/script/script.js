@@ -7,6 +7,7 @@ document.querySelector('#reset').addEventListener('click', resetContagem)
 const outmin = document.querySelector('#minutos')
 const outsec = document.querySelector('#segundos')
 const outmsec = document.querySelector('#milisegundos')
+const stop = new Audio('audio/stop.mp3')
 let running = false
 
 var min = 00
@@ -51,6 +52,9 @@ function startContagem(){
 }
 
 function stopContagem(){
+    if(running == true){
+        stop.play()
+    }
     running = false
     clearInterval(tempo)
 }
