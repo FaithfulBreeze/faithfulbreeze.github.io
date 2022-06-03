@@ -14,7 +14,7 @@ main{
     margin-top: 30px;
     border-radius: 10px;
     border: 5px solid rgb(67, 110, 81);
-    height: 135vw;
+    height: 100%;
     background-color: white;
     padding: 50px;
 }
@@ -41,11 +41,28 @@ div{
     border: 5px solid rgb(67, 110, 81);
 }
 #caixa{
-    padding: 5px;
+    padding: 10px;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
 
 }
 #pergunta{
     text-align: center;
+    font-size: 30px;
+
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input{
+    width: 40px;
+}
+label{
+    color: black;
+}
+#item{
+    padding: 4px;
+    display: inline;
+    background-color: white;
 }
