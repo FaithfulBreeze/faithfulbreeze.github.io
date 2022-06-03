@@ -9,6 +9,7 @@
 ## [Desafio Módulo 3](https://faithfulbreeze.github.io/MeusProjetos/Mini-Projeto04-Cordel/index.html)
 ## [Cronômetro](https://faithfulbreeze.github.io/MeusProjetos/Mini-Projeto05-Cronometro/index.html)
 ## [Slider](https://faithfulbreeze.github.io/MeusProjetos/Mini-Projeto06-Slider/index.html)
+## [Quiz Escola](https://faithfulbreeze.github.io/MeusProjetos/Mini-Projeto07-QuizEscola/index.html)
 
 <br>
 <hr>
