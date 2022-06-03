@@ -67,6 +67,12 @@ label{
     background-color: white;
 }
 @media (max-width: 580px){
+    body{
+        padding: 15px;
+    }
+    main{
+        padding: 10px;
+    }
     h1{
         font-size: 30px;
     }
@@ -82,4 +88,26 @@ label{
         font-size: 15px;
     }
 
+}
+@media (max-width: 220px){
+    body{
+        padding: 10px;
+    }
+    main{
+        padding: 5px;
+        font-size: 10px;
+    }
+    #tit{
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    #pergunta{
+        font-size: 14px;
+    }
+    #item{
+        font-size: 12px;
+    }
 }
