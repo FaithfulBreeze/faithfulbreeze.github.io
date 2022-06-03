@@ -66,3 +66,20 @@ label{
     display: inline-block;
     background-color: white;
 }
+@media (max-width: 580px){
+    h1{
+        font-size: 30px;
+    }
+}
+@media (max-width: 379px){
+    h1{
+        font-size: 20px;
+    }
+    #pergunta{
+        font-size: 20px;
+    }
+    #item{
+        font-size: 15px;
+    }
+
+}
