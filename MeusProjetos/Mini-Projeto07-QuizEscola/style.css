@@ -66,7 +66,7 @@ label{
     display: inline-block;
     background-color: white;
 }
-@media (max-width: 730px){
+@media (max-width: 750px){
     body{
         padding: 15px;
     }
@@ -82,7 +82,7 @@ label{
         padding: 15px;
     }
     main{
-        padding: 10px;
+        padding: 5px;
     }
     h1{
         font-size: 30px;
