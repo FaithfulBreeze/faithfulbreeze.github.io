@@ -3,23 +3,40 @@
     padding: 0px;
 }
 body{
-    background-color: rgb(103, 83, 172);
+    background-color: rgb(164, 231, 186);
+    padding: 30px;
+    padding-top: 5px;
 }
 main{
-    box-shadow: 0px 0px 10px rgb(113, 14, 126);
-    position: absolute;
+    box-shadow: 0px 0px 10px rgba(52, 73, 59, 0.548);
+    margin: auto;
     margin-top: 30px;
-    left: 25%;
     border-radius: 10px;
-    border: 5px solid rgb(22, 4, 41);
-    height: 45vw;
-    width: 50vw;
+    border: 5px solid rgb(67, 110, 81);
+    height: 135vw;
     background-color: white;
+    padding: 50px;
 }
 h1{
-    margin-top: 10px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
     font-size: 50px;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.267);
+    
+}
+div{
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(164, 231, 186);
+}
+#tit{
+    font-size: 60px;
+    -webkit-text-stroke: 1px rgb(67, 110, 81);
+
+    font-family: Arial, Helvetica, sans-serif; color: rgb(255, 255, 255);
+}
+#destaque{
+    border: 5px solid rgb(67, 110, 81);
 }
