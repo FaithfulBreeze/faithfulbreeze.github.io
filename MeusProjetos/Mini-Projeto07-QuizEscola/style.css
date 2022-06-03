@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    background-color: rgb(164, 231, 186);
+    background-color: rgb(78, 160, 105);
     padding: 30px;
     padding-top: 5px;
 }
@@ -29,7 +29,7 @@ div{
     display: block;
     border-radius: 10px;
     margin-bottom: 20px;
-    background-color: rgb(164, 231, 186);
+    background-color: rgb(78, 160, 105);
 }
 #tit{
     font-size: 60px;
